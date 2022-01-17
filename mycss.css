@@ -1,0 +1,67 @@
+/*Här skriver ni css*/
+/*Här skriver ni css*/
+
+li:hover > button{
+    display: inline-block;
+    margin-left: 0.7em;
+    background-color:rgb(169, 166, 159);
+    align-items: flex-start;
+    }
+    
+    ul{
+        float: center;
+        list-style-position: inside;   
+        margin-top: 40px;
+        list-style-type: disc;
+        background:rgb(255, 255, 255);  
+    }
+    
+    .delete{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+    
+    h2{
+        text-align: center;
+        color: rgb(80, 79, 65);
+    }
+    
+    
+    body{
+        background-color: rgb(255, 237, 224);
+    }
+    
+    div{
+        text-align: center;
+        height: auto;
+        width: auto;
+        border-radius: 100px;
+    }
+    
+    li::marker {
+      color:rgb(114, 87, 27);
+      font-size: 2.2em;
+      padding-right: 10px
+      
+    }
+    
+    ul li {
+        background:rgb(230, 241, 255);
+        margin: 10px;
+        box-shadow: 0 0 2px 1px rgb(255, 250, 192);
+        font-family: 'Courier New', Courier, monospace;
+    
+    }
+    
+    #list {
+        
+        text-align: left;
+        padding: 20px;  
+        border: 2px solid;
+        height: auto;
+        width: auto;
+        box-sizing:content-box;
+        
+    }
